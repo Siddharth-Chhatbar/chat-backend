@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+*.egg-info/
+.env
+.env.*
+.venv/
+*.swp
+*.swo
+*.log
+db.sqlite3
+
+# Django static files
+static/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.orig
+*.rej
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Deployment
+*.pyc
+*.pth
+
+# Channels
+asgi.pyc
+
+# Supabase
+.supabase/
+
+# Clerk
+.clerk/
+
+# Packages
+node_modules/
+package-lock.json
+yarn.lock
+
+# other
+*.sqlite3
